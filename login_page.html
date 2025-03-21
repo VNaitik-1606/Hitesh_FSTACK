@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-gray-900 flex justify-center items-center min-h-screen">
+    <div class="bg-gray-700 rounded-lg p-8 shadow-lg max-w-screen-sm w-full">
+      <h2 class="text-center text-3xl text-white mb-6 font-bold">Login</h2>
+      <form>
+        <div class="mb-4">
+          <label
+            class="block text-sm font-medium text-green-300 mb-2"
+            for="email"
+            >Email</label
+          >
+          <input
+            type="email"
+            placeholder="Email"
+            class="p-2 rounded-lg w-full focus: outline-none"
+          />
+        </div>
+        <div>
+          <label
+            for="password"
+            class="block font-medium mb-2 text-green-300 text-sm"
+            >Password</label
+          >
+          <input
+            type="password"
+            placeholder="Password"
+            class="p-2 w-full rounded-lg focus: outline-none"
+          />
+        </div>
+        <button
+          type="submit"
+          class="text-white bg-blue-500 p-2 w-full rounded-md mt-6 hover:bg-blue-600 hover:text-xl hover:duration-200"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
